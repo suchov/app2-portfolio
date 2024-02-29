@@ -7,4 +7,4 @@ with st.form(key="email_form"):
     message = st.text_area("Your message here")
     button = st.form_submit_button("Submit")
     if button:
-        print("I was pressed!")
+        print("Pressed")
